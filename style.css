@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ubuntu+Condensed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+Body {
+    background-color: gray;
+}
+
+nav ul {
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+
+nav ul li {
+    color: white;
+    list-style-type: none;
+    padding: 0 15px;
+    font-size: 19px;
+}
+
+.brand img {
+    width: 60px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.container {
+    width: 90%;
+    margin: 3px auto;
+    border-radius: 10px;
+    min-height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 30px;
+    background: url(wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.buttom {
+    background-color: black;
+    height: 80px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.Icons i {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0 8px;
+    color: white;
+}
+
+#progressbar {
+    width: 98.8vw;
+    height: 3px;
+    cursor: pointer;
+}
+
+.songcontainer {
+    margin: 40px 0;
+}
+
+.songitem {
+    height: 50px;
+    width: 350px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+}
+
+.songitem img {
+    width: 65px;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+.stamptime {
+    margin: 0 5px;
+    cursor: pointer
+}
+
+/*.songPlay {
+
+    position: relative;
+    right: 5px;
+}*/
+
+.songinfo {
+    position: absolute;
+    left: 10px;
+    font-size: 17px;
+
+}
+
+.songinfo img {
+    width: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+#masterSongPlay {
+    margin: 5px;
+}
